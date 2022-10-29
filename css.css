@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Work+Sans:wght@200;300;500;700;800&display=swap');
+body {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div p:nth-child(1){
+    color: red;
+    font-weight: bold;
+    font-size: 4em;
+    letter-spacing: 2px;
+    margin-left: 89px;
+    padding: 100px 0px 0px 0px;
+}
+div p:nth-child(3){
+    color: black;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    padding: 126px 27px;
+    text-align: center;
+}
+
+div p:nth-child(2){
+    color: black;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    margin-left: -6px;
+    text-align: center;
+}
